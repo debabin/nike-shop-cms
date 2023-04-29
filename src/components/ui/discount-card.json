@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_ui_discount_cards",
+  "info": {
+    "displayName": "DiscountCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

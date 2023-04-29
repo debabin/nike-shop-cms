@@ -1,0 +1,70 @@
+{
+  "kind": "collectionType",
+  "collectionName": "page_homes",
+  "info": {
+    "singularName": "page-home",
+    "pluralName": "page-homes",
+    "displayName": "PageHome",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "layout_pre_header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::layout-pre-header.layout-pre-header"
+    },
+    "layout_header": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::layout-header.layout-header"
+    },
+    "section_banner": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-banner.section-banner"
+    },
+    "section_discount": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-discount.section-discount"
+    },
+    "section_membership": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-membership.section-membership"
+    },
+    "section_trend": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::section-trend.section-trend"
+    },
+    "laytout_subfooter": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::laytout-subfooter.laytout-subfooter"
+    },
+    "layout_footer": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::layout-footer.layout-footer"
+    }
+  }
+}

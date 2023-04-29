@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_settings_section_banners",
+  "info": {
+    "displayName": "SectionBanner"
+  },
+  "options": {},
+  "attributes": {
+    "showVideo": {
+      "type": "boolean",
+      "default": true,
+      "required": true
+    }
+  }
+}

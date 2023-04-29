@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_icon_buttons",
+  "info": {
+    "displayName": "IconButton"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "like",
+        "jordan"
+      ],
+      "required": true
+    }
+  }
+}

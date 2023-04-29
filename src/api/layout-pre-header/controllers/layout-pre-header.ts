@@ -1,0 +1,7 @@
+/**
+ * layout-pre-header controller
+ */
+
+import { factories } from '@strapi/strapi'
+
+export default factories.createCoreController('api::layout-pre-header.layout-pre-header');

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_figures",
+  "info": {
+    "displayName": "Figure"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string",
+      "required": false
+    },
+    "linkButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.button"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
