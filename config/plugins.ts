@@ -5,6 +5,7 @@ module.exports = () => ({
       endpoint: "/graphql",
       shadowCRUD: true,
       playgroundAlways: true,
+      introspection: true,
       defaultLimit: 10,
       maxLimit: 20,
       apolloServer: {
