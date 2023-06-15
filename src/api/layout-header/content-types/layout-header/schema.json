@@ -103,7 +103,7 @@
       "component": "ui.link-list",
       "required": true
     },
-    "favoritesButton": {
+    "favoritesIconButton": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {
@@ -114,7 +114,7 @@
       "component": "ui.icon-button",
       "required": true
     },
-    "cartButton": {
+    "cartIconButton": {
       "type": "component",
       "repeatable": false,
       "pluginOptions": {

@@ -47,21 +47,6 @@
       "max": 3,
       "component": "ui.link-list"
     },
-    "socilas": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "enumeration",
-      "enum": [
-        "twitter",
-        "facebook",
-        "youtube",
-        "instagram"
-      ],
-      "required": true
-    },
     "supportLinks": {
       "type": "component",
       "repeatable": false,
@@ -72,6 +57,22 @@
       },
       "component": "ui.link-list",
       "required": false
+    },
+    "socilas": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "customField",
+      "options": [
+        "twitter",
+        "facebook",
+        "youtube",
+        "instagram"
+      ],
+      "customField": "plugin::multi-select.multi-select",
+      "required": true
     }
   }
 }

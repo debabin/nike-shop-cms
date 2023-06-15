@@ -11,9 +11,16 @@
       "enum": [
         "like",
         "jordan",
-        "cart"
+        "cart",
+        "converse"
       ],
       "required": true
+    },
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
     }
   }
 }

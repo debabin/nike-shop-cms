@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "item": {
+    "items": {
       "type": "component",
       "repeatable": true,
       "pluginOptions": {

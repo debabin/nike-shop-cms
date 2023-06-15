@@ -4,7 +4,8 @@
   "info": {
     "singularName": "layout-pre-header",
     "pluralName": "layout-pre-headers",
-    "displayName": "LayoutPreHeader"
+    "displayName": "LayoutPreHeader",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -34,6 +35,26 @@
       },
       "component": "ui.link-list",
       "required": true
+    },
+    "jordanIconButton": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ui.icon-button"
+    },
+    "coverseIconButton": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "ui.icon-button"
     }
   }
 }

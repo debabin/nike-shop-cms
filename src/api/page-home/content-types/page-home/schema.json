@@ -56,10 +56,10 @@
       "relation": "oneToOne",
       "target": "api::section-trend.section-trend"
     },
-    "laytout_subfooter": {
+    "layout_subfooter": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::laytout-subfooter.laytout-subfooter"
+      "target": "api::layout-subfooter.layout-subfooter"
     },
     "layout_footer": {
       "type": "relation",

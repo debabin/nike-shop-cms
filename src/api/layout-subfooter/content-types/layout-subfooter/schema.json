@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "laytout_subfooters",
+  "collectionName": "layout_subfooters",
   "info": {
-    "singularName": "laytout-subfooter",
-    "pluralName": "laytout-subfooters",
-    "displayName": "LaytoutSubfooter",
+    "singularName": "layout-subfooter",
+    "pluralName": "layout-subfooters",
+    "displayName": "LayoutSubfooter",
     "description": ""
   },
   "options": {

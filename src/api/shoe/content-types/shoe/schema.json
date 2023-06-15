@@ -31,31 +31,6 @@
       "relation": "oneToOne",
       "target": "api::type.type"
     },
-    "color": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "customField",
-      "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
-      "required": true,
-      "customField": "plugin::color-picker.color"
-    },
-    "medias": {
-      "type": "media",
-      "multiple": true,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "videos"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "description": {
       "pluginOptions": {
         "i18n": {
@@ -74,6 +49,25 @@
       },
       "type": "richtext",
       "required": false
+    },
+    "options": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "entity.shoe-option",
+      "required": true
+    },
+    "details": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
     }
   }
 }
