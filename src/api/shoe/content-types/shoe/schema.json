@@ -68,6 +68,16 @@
         }
       },
       "type": "richtext"
+    },
+    "price": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true,
+      "minLength": 3
     }
   }
 }

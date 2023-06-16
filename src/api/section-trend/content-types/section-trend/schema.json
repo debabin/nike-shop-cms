@@ -26,9 +26,9 @@
       "required": true,
       "unique": true
     },
-    "shoe": {
+    "shoes": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::shoe.shoe"
     },
     "sectionTitle": {
