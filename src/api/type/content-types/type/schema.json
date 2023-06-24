@@ -28,6 +28,15 @@
         "Women's Shoes",
         "Basketball Shoes"
       ]
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
     }
   }
 }
